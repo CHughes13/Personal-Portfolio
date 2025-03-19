@@ -1,0 +1,95 @@
+/* Font styles */
+.jersey-15-regular {
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.twinkle-star-regular {
+    font-family: "Twinkle Star", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+  
+body {
+    background-image: url("neutral-plant-background.webp");
+    background-size: 500px;
+    /* background-blend-mode: lighten; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: bisque; /* Used if img is unavailable */
+    text-align: center;
+    font-family: "Twinkle Star", cursive;
+    color: #446661;
+}
+
+#title {
+    margin-top: 100px;
+    line-height: 10px;
+}
+
+#subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#calendarContainer {
+    display: flex;
+    justify-content: end;
+    font-family: "Jersey 15", sans-serif;
+}
+
+#calendarDiv {
+    background-color: white;
+    border-radius: 10px 10px 20px 20px;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+
+#calendarHeading {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 10px 0px 0px;
+    border: 2px solid #446661;
+    border-bottom: none;
+    padding: 0px 20px;
+    font-size: 20px;
+    background-color: #8c9f98;
+    line-height: 0px;
+}
+
+#calendarContent {
+    padding: 20px;
+    border: 2px solid #446661;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.days {
+    display: flex;
+}
+
+.day {
+    width: 30px;
+    margin: 3px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* Reset Button Styling */
+#resetButtonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#resetButton {
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Jersey 15", sans-serif; /* Overwrites button default styling so font matches rest of page */
+}
